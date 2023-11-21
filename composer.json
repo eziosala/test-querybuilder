@@ -1,0 +1,19 @@
+{
+    "name": "eziosala/bank",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ezio",
+            "email": "eziosalapro@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^6.3",
+        "altorouter/altorouter": "^2.0",
+        "benoclock/alto-dispatcher": "^1.3"
+    }
+}
